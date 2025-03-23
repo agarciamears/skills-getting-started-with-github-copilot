@@ -88,6 +88,38 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participant-card {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.participant-card.dark-mode {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.participant-card h4 {
+  margin-bottom: 10px;
+  color: #0066cc;
+}
+
+.participant-card p {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.participant-card .email {
+  font-style: italic;
+  color: #888;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
